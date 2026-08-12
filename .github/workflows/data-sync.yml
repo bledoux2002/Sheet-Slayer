@@ -15,10 +15,10 @@ jobs:
         run: |
           git clone --depth 1 --filter=blob:none --sparse https://github.com/5etools-mirror-3/5etools-src.git tmp-source
           cd tmp-source
-          git sparse-checkout set tree/main/data
+          git sparse-checkout set data
           cd ..
           rm -rf data
-          cp -r tmp-source/tree/main/data data
+          cp -r tmp-source/data data
           rm -rf tmp-source
 
       - name: Commit changes if any
