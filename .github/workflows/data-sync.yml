@@ -1,0 +1,30 @@
+# .github/workflows/sync-data.yml
+name: Sync 5eTools data folder
+on:
+  schedule:
+    - cron: '0 9 1 * *'  # monthly at 6am UTC
+  workflow_dispatch:      # manual trigger button
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch /data subfolder from 5eTools source repo
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/5etools-mirror-3/5etools-src.git tmp-source
+          cd tmp-source
+          git sparse-checkout set tree/main/data
+          cd ..
+          rm -rf data
+          cp -r tmp-source/tree/main/data data
+          rm -rf tmp-source
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --staged --quiet || git commit -m "Sync data from 5eTools source repo"
+          git push
