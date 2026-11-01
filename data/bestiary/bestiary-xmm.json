@@ -5,7 +5,8 @@
 			"source": "XMM",
 			"page": 10,
 			"referenceSources": [
-				"FRAiF"
+				"FRAiF",
+				"RWG"
 			],
 			"size": [
 				"M"
@@ -2806,7 +2807,8 @@
 				"EFA",
 				"FFotR",
 				"FRAiF",
-				"FRHoF"
+				"FRHoF",
+				"RWG"
 			],
 			"size": [
 				"L"
@@ -5497,7 +5499,8 @@
 				"EFA",
 				"FRAiF",
 				"LFL",
-				"RHW"
+				"RHW",
+				"SoS"
 			],
 			"size": [
 				"M"
@@ -5682,7 +5685,8 @@
 				"BQDD",
 				"EFA",
 				"HotB",
-				"RHW"
+				"RHW",
+				"RWG"
 			],
 			"size": [
 				"S"
@@ -6682,7 +6686,8 @@
 				"EFA",
 				"FRAiF",
 				"NF",
-				"RHW"
+				"RHW",
+				"RWG"
 			],
 			"size": [
 				"S",
@@ -7405,7 +7410,8 @@
 			"source": "XMM",
 			"page": 25,
 			"referenceSources": [
-				"FRAiF"
+				"FRAiF",
+				"SoS"
 			],
 			"size": [
 				"M"
@@ -8076,7 +8082,8 @@
 				"ABH",
 				"EFA",
 				"FFotR",
-				"FRAiF"
+				"FRAiF",
+				"SoS"
 			],
 			"size": [
 				"S",
@@ -9805,6 +9812,7 @@
 				"FRAiF",
 				"FRHoF",
 				"RHW",
+				"RWG",
 				"ScoEE"
 			],
 			"size": [
@@ -12450,7 +12458,8 @@
 			"source": "XMM",
 			"page": 65,
 			"referenceSources": [
-				"FRAiF"
+				"FRAiF",
+				"RWG"
 			],
 			"size": [
 				"M"
@@ -14501,7 +14510,8 @@
 				"HotB",
 				"LFL",
 				"NF",
-				"RHW"
+				"RHW",
+				"SoS"
 			],
 			"size": [
 				"S",
@@ -15320,7 +15330,8 @@
 				"FRAiF",
 				"FRHoF",
 				"RHW",
-				"ScoEE"
+				"ScoEE",
+				"SoS"
 			],
 			"size": [
 				"S",
@@ -16095,7 +16106,9 @@
 				"AUD",
 				"EFA",
 				"FRAiF",
-				"RHW"
+				"RHW",
+				"RWG",
+				"SoS"
 			],
 			"size": [
 				"S",
@@ -18918,7 +18931,8 @@
 				"DrDe-TFV",
 				"EFA",
 				"FRAiF",
-				"RHW"
+				"RHW",
+				"SoS"
 			],
 			"size": [
 				"S",
@@ -23072,7 +23086,8 @@
 				"DrDe",
 				"DrDe-TWoO",
 				"FRAiF",
-				"RHW"
+				"RHW",
+				"SoS"
 			],
 			"size": [
 				"M"
@@ -23515,7 +23530,8 @@
 				"DrDe",
 				"DrDe-TWoO",
 				"FRAiF",
-				"RHW"
+				"RHW",
+				"SoS"
 			],
 			"size": [
 				"M"
@@ -24673,7 +24689,7 @@
 			"cha": 3,
 			"skill": {
 				"perception": "+2",
-				"stealth": "+4"
+				"stealth": "+3"
 			},
 			"senses": [
 				"Darkvision 30 ft."
@@ -25951,6 +25967,9 @@
 			"page": 361,
 			"srd52": true,
 			"basicRules2024": true,
+			"referenceSources": [
+				"RWG"
+			],
 			"size": [
 				"L"
 			],
@@ -27477,7 +27496,8 @@
 			"referenceSources": [
 				"AUD",
 				"EFA",
-				"FRAiF"
+				"FRAiF",
+				"RWG"
 			],
 			"size": [
 				"S",
@@ -30392,7 +30412,8 @@
 				"FRHoF",
 				"HotB",
 				"NF",
-				"RHW"
+				"RHW",
+				"SoS"
 			],
 			"size": [
 				"S",
@@ -30479,7 +30500,8 @@
 				"HotB",
 				"LFL",
 				"NF",
-				"RHW"
+				"RHW",
+				"RWG"
 			],
 			"size": [
 				"S",
@@ -31004,7 +31026,8 @@
 			"referenceSources": [
 				"EFA",
 				"FRAiF",
-				"RHW"
+				"RHW",
+				"SoS"
 			],
 			"size": [
 				"M"
@@ -31967,7 +31990,8 @@
 			"basicRules2024": true,
 			"referenceSources": [
 				"EFA",
-				"FRAiF"
+				"FRAiF",
+				"SoS"
 			],
 			"size": [
 				"M"
@@ -36849,7 +36873,9 @@
 				"AUD",
 				"EFA",
 				"FRAiF",
-				"NF"
+				"NF",
+				"RWG",
+				"SoS"
 			],
 			"size": [
 				"S",
@@ -37479,7 +37505,8 @@
 			"referenceSources": [
 				"DrDe",
 				"DrDe-TFV",
-				"FRAiF"
+				"FRAiF",
+				"RWG"
 			],
 			"size": [
 				"L"
@@ -41343,7 +41370,8 @@
 				"HotB",
 				"LFL",
 				"NF",
-				"RHW"
+				"RHW",
+				"SoS"
 			],
 			"size": [
 				"S",
@@ -42153,7 +42181,8 @@
 				"DrDe-TWoO",
 				"HBTD",
 				"HotB",
-				"RHW"
+				"RHW",
+				"SoS"
 			],
 			"size": [
 				"L"
@@ -43357,7 +43386,8 @@
 			"referenceSources": [
 				"EFA",
 				"FRAiF",
-				"FRHoF"
+				"FRHoF",
+				"SoS"
 			],
 			"size": [
 				"M"
@@ -43464,7 +43494,8 @@
 			"basicRules2024": true,
 			"referenceSources": [
 				"FRAiF",
-				"FRHoF"
+				"FRHoF",
+				"SoS"
 			],
 			"size": [
 				"L"
@@ -46144,6 +46175,9 @@
 			"name": "Quaggoth Thonot",
 			"source": "XMM",
 			"page": 251,
+			"referenceSources": [
+				"RWG"
+			],
 			"size": [
 				"M"
 			],
@@ -49255,7 +49289,8 @@
 				"DrDe-TDoN",
 				"FRAiF",
 				"FRHoF",
-				"HBTD"
+				"HBTD",
+				"RWG"
 			],
 			"size": [
 				"S",
@@ -49700,7 +49735,8 @@
 				"FRAiF",
 				"FRHoF",
 				"HBTD",
-				"RHW"
+				"RHW",
+				"SoS"
 			],
 			"size": [
 				"M"
@@ -51311,7 +51347,8 @@
 				"DrDe-TWoO",
 				"FRAiF",
 				"HBTD",
-				"RHW"
+				"RHW",
+				"SoS"
 			],
 			"size": [
 				"M"
@@ -52633,7 +52670,8 @@
 				"FRHoF",
 				"LFL",
 				"NF",
-				"RHW"
+				"RHW",
+				"SoS"
 			],
 			"size": [
 				"S",
@@ -54606,7 +54644,8 @@
 			"source": "XMM",
 			"page": 299,
 			"referenceSources": [
-				"FRAiF"
+				"FRAiF",
+				"SoS"
 			],
 			"size": [
 				"M"
@@ -55319,7 +55358,9 @@
 				"DrDe-BD",
 				"DrDe-BtS",
 				"EFA",
-				"FRAiF"
+				"FRAiF",
+				"RWG",
+				"SoS"
 			],
 			"size": [
 				"S",
@@ -55417,6 +55458,7 @@
 				"FRAiF",
 				"NF",
 				"RHW",
+				"RWG",
 				"ScoEE"
 			],
 			"size": [
@@ -56229,7 +56271,8 @@
 			"basicRules2024": true,
 			"referenceSources": [
 				"FRAiF",
-				"RHW"
+				"RHW",
+				"SoS"
 			],
 			"size": [
 				"H"
@@ -57134,7 +57177,8 @@
 			"basicRules2024": true,
 			"referenceSources": [
 				"EFA",
-				"RHW"
+				"RHW",
+				"SoS"
 			],
 			"size": [
 				"S",
@@ -58230,7 +58274,8 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"referenceSources": [
-				"FRAiF"
+				"FRAiF",
+				"RWG"
 			],
 			"size": [
 				"L"
@@ -60109,7 +60154,8 @@
 			"basicRules2024": true,
 			"referenceSources": [
 				"FRAiF",
-				"RHW"
+				"RHW",
+				"SoS"
 			],
 			"size": [
 				"M"
@@ -60624,7 +60670,8 @@
 			"referenceSources": [
 				"FRAiF",
 				"FRHoF",
-				"RHW"
+				"RHW",
+				"SoS"
 			],
 			"size": [
 				"M"
@@ -61020,6 +61067,9 @@
 			"page": 338,
 			"srd52": true,
 			"basicRules2024": true,
+			"referenceSources": [
+				"RWG"
+			],
 			"size": [
 				"M"
 			],

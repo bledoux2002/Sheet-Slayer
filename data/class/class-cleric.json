@@ -790,15 +790,15 @@
 				{
 					"title": "Spell Slots per Spell Level",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Cleric}",
-						"{@filter 2nd|spells|level=2|class=Cleric}",
-						"{@filter 3rd|spells|level=3|class=Cleric}",
-						"{@filter 4th|spells|level=4|class=Cleric}",
-						"{@filter 5th|spells|level=5|class=Cleric}",
-						"{@filter 6th|spells|level=6|class=Cleric}",
-						"{@filter 7th|spells|level=7|class=Cleric}",
-						"{@filter 8th|spells|level=8|class=Cleric}",
-						"{@filter 9th|spells|level=9|class=Cleric}"
+						"{@filter 1|spells|level=1|class=Cleric}",
+						"{@filter 2|spells|level=2|class=Cleric}",
+						"{@filter 3|spells|level=3|class=Cleric}",
+						"{@filter 4|spells|level=4|class=Cleric}",
+						"{@filter 5|spells|level=5|class=Cleric}",
+						"{@filter 6|spells|level=6|class=Cleric}",
+						"{@filter 7|spells|level=7|class=Cleric}",
+						"{@filter 8|spells|level=8|class=Cleric}",
+						"{@filter 9|spells|level=9|class=Cleric}"
 					],
 					"rowsSpellProgression": [
 						[
@@ -2877,6 +2877,7 @@
 			"source": "AU",
 			"className": "Cleric",
 			"classSource": "XPHB",
+			"page": 8,
 			"edition": "one",
 			"additionalSpells": [
 				{
@@ -3581,12 +3582,18 @@
 					"type": "entries",
 					"entries": [
 						{
-							"type": "refClassFeature",
-							"classFeature": "Divine Strike|Cleric|XPHB|7"
-						},
-						{
-							"type": "refClassFeature",
-							"classFeature": "Potent Spellcasting|Cleric|XPHB|7"
+							"type": "options",
+							"count": 1,
+							"entries": [
+								{
+									"type": "refClassFeature",
+									"classFeature": "Divine Strike|Cleric|XPHB|7"
+								},
+								{
+									"type": "refClassFeature",
+									"classFeature": "Potent Spellcasting|Cleric|XPHB|7"
+								}
+							]
 						}
 					]
 				}
@@ -6165,8 +6172,8 @@
 					]
 				},
 				{
-					"name": "Domain Spells",
 					"type": "entries",
+					"name": "Domain Spells",
 					"entries": [
 						"{@i 1st-level Peace Domain feature}",
 						"You gain domain spells at the cleric levels listed in the Peace Domain Spells table. See the Divine Domain class feature for how domain spells work.",
@@ -6385,8 +6392,8 @@
 					]
 				},
 				{
-					"name": "Domain Spells",
 					"type": "entries",
+					"name": "Domain Spells",
 					"entries": [
 						"{@i 1st-level Twilight Domain feature}",
 						"You gain domain spells at the cleric levels listed in the Twilight Domain Spells table. See the Divine Domain class feature for how domain spells work.",
@@ -6914,6 +6921,7 @@
 		{
 			"name": "Arcana Domain",
 			"source": "AU",
+			"page": 8,
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Arcana",
@@ -6940,6 +6948,7 @@
 		{
 			"name": "Arcana Domain Spells",
 			"source": "AU",
+			"page": 8,
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Arcana",
@@ -6951,6 +6960,7 @@
 				{
 					"type": "table",
 					"caption": "Arcana Domain Spells",
+					"page": 8,
 					"colLabels": [
 						"Cleric Level",
 						"Prepared Spells"
@@ -6983,6 +6993,7 @@
 		{
 			"name": "Modify Magic",
 			"source": "AU",
+			"page": 8,
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Arcana",
@@ -7004,6 +7015,7 @@
 		{
 			"name": "Student of Arcana",
 			"source": "AU",
+			"page": 8,
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Arcana",
@@ -7015,6 +7027,7 @@
 				{
 					"type": "entries",
 					"name": "Magical Knowledge",
+					"page": 8,
 					"entries": [
 						"You gain proficiency in the {@skill Arcana|XPHB} skill or one skill of your choice from the skills available to Clerics at level 1."
 					]
@@ -7022,6 +7035,7 @@
 				{
 					"type": "entries",
 					"name": "Cantrips",
+					"page": 8,
 					"entries": [
 						"You learn two {@filter Wizard cantrips|spells|level=0|class=Wizard} of your choice. Whenever you gain a Cleric level, you can replace one of these cantrips with another {@filter Wizard cantrip|spells|level=0|class=Wizard}."
 					]
@@ -7031,6 +7045,7 @@
 		{
 			"name": "Fortifying Spell",
 			"source": "AU",
+			"page": 8,
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Arcana",
@@ -7048,6 +7063,7 @@
 		{
 			"name": "Tenacious Spell",
 			"source": "AU",
+			"page": 8,
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Arcana",
@@ -7065,6 +7081,7 @@
 		{
 			"name": "Dispelling Recovery",
 			"source": "AU",
+			"page": 9,
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Arcana",
@@ -7079,6 +7096,7 @@
 		{
 			"name": "Magical Mastery",
 			"source": "AU",
+			"page": 9,
 			"className": "Cleric",
 			"classSource": "XPHB",
 			"subclassShortName": "Arcana",
@@ -8232,19 +8250,19 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3",
 							"{@spell Aid|XPHB}, {@spell Bless|XPHB}, {@spell Cure Wounds|XPHB}, {@spell Lesser Restoration|XPHB}"
 						],
 						[
-							"5th",
+							"5",
 							"{@spell Mass Healing Word|XPHB}, {@spell Revivify|XPHB}"
 						],
 						[
-							"7th",
+							"7",
 							"{@spell Aura of Life|XPHB}, {@spell Death Ward|XPHB}"
 						],
 						[
-							"9th",
+							"9",
 							"{@spell Greater Restoration|XPHB}, {@spell Mass Cure Wounds|XPHB}"
 						]
 					]
@@ -8354,19 +8372,19 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3",
 							"{@spell Burning Hands|XPHB}, {@spell Faerie Fire|XPHB}, {@spell Scorching Ray|XPHB}, {@spell See Invisibility|XPHB}"
 						],
 						[
-							"5th",
+							"5",
 							"{@spell Daylight|XPHB}, {@spell Fireball|XPHB}"
 						],
 						[
-							"7th",
+							"7",
 							"{@spell Arcane Eye|XPHB}, {@spell Wall of Fire|XPHB}"
 						],
 						[
-							"9th",
+							"9",
 							"{@spell Flame Strike|XPHB}, {@spell Scrying|XPHB}"
 						]
 					]
@@ -8539,19 +8557,19 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3",
 							"{@spell Charm Person|XPHB}, {@spell Disguise Self|XPHB}, {@spell Invisibility|XPHB}, {@spell Pass without Trace|XPHB}"
 						],
 						[
-							"5th",
+							"5",
 							"{@spell Hypnotic Pattern|XPHB}, {@spell Nondetection|XPHB}"
 						],
 						[
-							"7th",
+							"7",
 							"{@spell Confusion|XPHB}, {@spell Dimension Door|XPHB}"
 						],
 						[
-							"9th",
+							"9",
 							"{@spell Dominate Person|XPHB}, {@spell Modify Memory|XPHB}"
 						]
 					]
@@ -8674,19 +8692,19 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3",
 							"{@spell Guiding Bolt|XPHB}, {@spell Magic Weapon|XPHB}, {@spell Shield of Faith|XPHB}, {@spell Spiritual Weapon|XPHB}"
 						],
 						[
-							"5th",
+							"5",
 							"{@spell Crusader's Mantle|XPHB}, {@spell Spirit Guardians|XPHB}"
 						],
 						[
-							"7th",
+							"7",
 							"{@spell Fire Shield|XPHB}, {@spell Freedom of Movement|XPHB}"
 						],
 						[
-							"9th",
+							"9",
 							"{@spell Hold Monster|XPHB}, {@spell Steel Wind Strike|XPHB}"
 						]
 					]

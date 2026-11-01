@@ -1,6 +1,6 @@
 {
 	"_meta": {
-		"referenceSources": {
+		"otherSources": {
 			"monster": {
 				"XMM": "AU"
 			}
@@ -250,6 +250,9 @@
 				"insight": "+8",
 				"perception": "+8"
 			},
+			"senses": [
+				"Truesight 120 ft."
+			],
 			"passive": 18,
 			"resist": [
 				"lightning",
@@ -288,6 +291,16 @@
 						"{@spell Mage Hand|XPHB}",
 						"{@spell Prestidigitation|XPHB}"
 					],
+					"daily": {
+						"2e": [
+							"{@spell Dimension Door|XPHB}",
+							"{@spell Scrying|XPHB}"
+						],
+						"1e": [
+							"{@spell Clone|XPHB}",
+							"{@spell Guards and Wards|XPHB}"
+						]
+					},
 					"ability": "int",
 					"displayAs": "action"
 				},
@@ -384,6 +397,9 @@
 				"Legendary Resistances",
 				"Magic Resistance"
 			],
+			"senseTags": [
+				"U"
+			],
 			"actionTags": [
 				"Multiattack"
 			],
@@ -396,7 +412,8 @@
 				"R"
 			],
 			"damageTagsSpell": [
-				"L"
+				"L",
+				"O"
 			],
 			"spellcastingTags": [
 				"O"
@@ -468,6 +485,9 @@
 			"int": 8,
 			"wis": 13,
 			"cha": 10,
+			"senses": [
+				"Darkvision 60 ft."
+			],
 			"passive": 11,
 			"conditionImmune": [
 				"charmed",
@@ -813,6 +833,9 @@
 			"name": "Darkenbeast",
 			"source": "AU",
 			"page": 142,
+			"referenceSources": [
+				"RWG"
+			],
 			"size": [
 				"M"
 			],
@@ -845,6 +868,9 @@
 				"perception": "+2",
 				"stealth": "+4"
 			},
+			"senses": [
+				"Darkvision 60 ft."
+			],
 			"passive": 12,
 			"conditionImmune": [
 				"frightened"
@@ -893,6 +919,9 @@
 			],
 			"traitTags": [
 				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"D"
 			],
 			"actionTags": [
 				"Multiattack"
@@ -1686,6 +1715,9 @@
 				"stealth": "+4",
 				"survival": "+2"
 			},
+			"senses": [
+				"Darkvision 120 ft."
+			],
 			"passive": 12,
 			"resist": [
 				"poison"
@@ -1725,6 +1757,9 @@
 			],
 			"treasure": [
 				"armaments"
+			],
+			"senseTags": [
+				"SD"
 			],
 			"languageTags": [
 				"C"
@@ -1782,6 +1817,9 @@
 				"stealth": "+7",
 				"survival": "+3"
 			},
+			"senses": [
+				"Darkvision 120 ft."
+			],
 			"passive": 13,
 			"resist": [
 				"poison"
@@ -1831,6 +1869,9 @@
 			"treasure": [
 				"armaments"
 			],
+			"senseTags": [
+				"SD"
+			],
 			"actionTags": [
 				"Multiattack"
 			],
@@ -1859,6 +1900,9 @@
 			"name": "Groundling Stalker",
 			"source": "AU",
 			"page": 144,
+			"referenceSources": [
+				"RWG"
+			],
 			"size": [
 				"M"
 			],
@@ -1892,6 +1936,9 @@
 				"stealth": "+5",
 				"survival": "+3"
 			},
+			"senses": [
+				"Darkvision 120 ft."
+			],
 			"passive": 13,
 			"resist": [
 				"poison"
@@ -1931,6 +1978,9 @@
 			],
 			"treasure": [
 				"armaments"
+			],
+			"senseTags": [
+				"SD"
 			],
 			"languageTags": [
 				"C"
@@ -2165,6 +2215,9 @@
 			"int": 3,
 			"wis": 11,
 			"cha": 6,
+			"senses": [
+				"Blindsight 60 ft."
+			],
 			"passive": 10,
 			"immune": [
 				"cold"
@@ -2223,6 +2276,9 @@
 				"Amorphous",
 				"Magic Resistance"
 			],
+			"senseTags": [
+				"B"
+			],
 			"actionTags": [
 				"Multiattack"
 			],
@@ -2243,6 +2299,9 @@
 			"name": "Living Thunderwave",
 			"source": "AU",
 			"page": 146,
+			"referenceSources": [
+				"RWG"
+			],
 			"size": [
 				"M"
 			],
@@ -2267,6 +2326,9 @@
 			"int": 3,
 			"wis": 6,
 			"cha": 6,
+			"senses": [
+				"Blindsight 60 ft."
+			],
 			"passive": 8,
 			"immune": [
 				"thunder"
@@ -2317,6 +2379,9 @@
 				"Amorphous",
 				"Magic Resistance"
 			],
+			"senseTags": [
+				"B"
+			],
 			"damageTags": [
 				"T"
 			],
@@ -2334,6 +2399,9 @@
 			"name": "Living Vitriolic Sphere",
 			"source": "AU",
 			"page": 146,
+			"referenceSources": [
+				"RWG"
+			],
 			"size": [
 				"L"
 			],
@@ -2358,6 +2426,9 @@
 			"int": 3,
 			"wis": 10,
 			"cha": 6,
+			"senses": [
+				"Blindsight 60 ft."
+			],
 			"passive": 10,
 			"immune": [
 				"acid"
@@ -2415,6 +2486,9 @@
 			"traitTags": [
 				"Amorphous",
 				"Magic Resistance"
+			],
+			"senseTags": [
+				"B"
 			],
 			"actionTags": [
 				"Multiattack"
@@ -2848,6 +2922,9 @@
 			"name": "Spellguard",
 			"source": "AU",
 			"page": 147,
+			"referenceSources": [
+				"RWG"
+			],
 			"size": [
 				"M"
 			],
@@ -2994,6 +3071,9 @@
 				"insight": "+12",
 				"perception": "+12"
 			},
+			"senses": [
+				"Truesight 120 ft."
+			],
 			"passive": 22,
 			"immune": [
 				"poison"
@@ -3113,6 +3193,9 @@
 				"Legendary Resistances",
 				"Magic Resistance"
 			],
+			"senseTags": [
+				"U"
+			],
 			"actionTags": [
 				"Multiattack"
 			],
@@ -3200,6 +3283,9 @@
 				"history": "+10",
 				"perception": "+7"
 			},
+			"senses": [
+				"Darkvision 60 ft."
+			],
 			"passive": 17,
 			"languages": [
 				"Common plus five other languages"
@@ -3303,6 +3389,9 @@
 			"traitTags": [
 				"Magic Resistance"
 			],
+			"senseTags": [
+				"D"
+			],
 			"actionTags": [
 				"Multiattack"
 			],
@@ -3372,6 +3461,9 @@
 				"intimidation": "+11",
 				"perception": "+8"
 			},
+			"senses": [
+				"Darkvision 120 ft. (unimpeded by magical {@variantrule Darkness|XPHB})"
+			],
 			"passive": 18,
 			"resist": [
 				"cold",
@@ -3524,6 +3616,9 @@
 				"Legendary Resistances",
 				"Magic Resistance"
 			],
+			"senseTags": [
+				"SD"
+			],
 			"actionTags": [
 				"Multiattack"
 			],
@@ -3578,6 +3673,7 @@
 		{
 			"name": "Vestige Companion",
 			"source": "AU",
+			"page": 14,
 			"summonedByClass": "Warlock|XPHB",
 			"size": [
 				"S"
@@ -3616,6 +3712,9 @@
 			"int": 15,
 			"wis": 15,
 			"cha": 16,
+			"senses": [
+				"darkvision 60 ft."
+			],
 			"passive": 12,
 			"resist": [
 				{
@@ -3693,6 +3792,9 @@
 						}
 					]
 				}
+			],
+			"senseTags": [
+				"SD"
 			],
 			"damageTags": [
 				"F",
